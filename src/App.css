@@ -1,0 +1,83 @@
+/** @format */
+
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(130, 173, 243);
+  color: black;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 40px;
+  margin-left: 1em;
+  margin-right: 3em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.navitems button {
+  width: 15%;
+  height: 8vh;
+  border: 2px solid black;
+  border-radius: 30px;
+  /* background-color: #797474; */
+  background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100%
+      1068px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+  font-family: cursive;
+  font-size: 20px;
+  margin: auto 3em;
+  margin-top: 3.5em;
+  font-weight: bold;
+}
+
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(217, 199, 234);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.avatar {
+  border-radius: 60%;
+}
+
+.profile_cont {
+  background-color: rgb(105, 96, 98);
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 1;
+  margin-top: 10vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.4);
+  opacity: 1;
+  cursor: pointer;
+  color: rgb(237, 238, 238);
+  background-color: rgb(215, 187, 193);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
